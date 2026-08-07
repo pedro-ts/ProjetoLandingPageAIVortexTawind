@@ -12,8 +12,8 @@
 <body class="bg-linear-to-br from-neutral-950 to-neutral-900 text-neutral-300">
     <!-- NAV BAR -->
     <header>
-        <nav id="nav-contaier" class=" nav-contaier
-            relative flex justify-between bg-linear-to-br from-neutral-950 to-neutral-900 p-2 border-b-2 border-neutral-600
+        <nav id="nav-contaier" class=" nav-contaier relative flex justify-between bg-linear-to-br from-neutral-950 to-neutral-900 p-2 border-b-2 border-neutral-600
+        md:justify-between
         ">
             <div class=" nav-logo
                 text-sky-300 text-2xl
@@ -22,33 +22,44 @@
             ">
                 <a href="#"> AIVortex</a>
             </div>
+
             <div id="nav-links-container" class=" nav-links-container
                     text-neutral-300
                     hidden fixed text-neutral-300 bg-linear-to-bl from-neutral-950 to-neutral-900 top-[3.35rem] h-[calc(100vh-3.35rem)] w-[100vw] left-0 text-xl p-1 font-bold
-                    
-            ">
-                <a class="p-3" href="#">Features</a>
-                <a class="p-3" href="#">Solutions</a>
-                <a class="p-3" href="#">Princing</a>
-                <a class="p-3" href="#">About</a>
 
-                <div id="nav-buttons-container" class="nav-buttons-container
-                    hidden flex-col items-center fixed inset-x-0 bottom-0 mb-10
+                    md:block md:h-fit md:w-fit md:static md:bg-transparent md:from-transparent md:to-transparent md:flex md:font-semibold md:text-[1rem] md:justify-between">
+
+                <div class="flex flex-col
+                md:flex-row
                 ">
-                    <a class="block
-                        border-2 border-neutral-600 text-neutral-400 w-[18rem] px-7 py-2 rounded-full text-center m-1 text-sm
-                    " href="#">
-                        Watch Demo
-                    </a>
-                    <a class="block
-                        bg-linear-to-br from-sky-300 to-indigo-300 text-neutral-950 w-[18rem] px-7 py-2 rounded-full text-center m-1 text-sm
-                    " href="#">Get Started</a>
+                    <a class="p-3" href="#">Features</a>
+                    <a class="p-3" href="#">Solutions</a>
+                    <a class="p-3" href="#">Princing</a>
+                    <a class="p-3" href="#">About</a>
                 </div>
+
+                
             </div>
-            
+
+            <div id="nav-buttons-container" class="nav-buttons-container
+                                hidden flex-col items-center fixed inset-x-0 bottom-0 mb-10
+                                md:block md:static md:flex-row md:mb-0 md:flex
+                            ">
+                <a class="block
+                                    border-2 border-neutral-600 text-neutral-400 w-[18rem] px-4 py-2 rounded-full text-center m-1 text-sm
+                                    md:w-fit
+                                " href="#">
+                    Watch Demo
+                </a>
+                <a class="block
+                                    bg-linear-to-br from-sky-300 to-indigo-300 text-neutral-950 w-[18rem] px-4 py-2 rounded-full text-center m-1 text-sm
+                                    md:w-fit
+                                " href="#">Get Started</a>
+            </div>
 
             <button id="nav-abre-fecha-btn" class="
                 absolute top-4 right-3
+                md:hidden
             ">
                 <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 48 48">
                     <path d="M0 0h48v48H0z" fill="none" />
