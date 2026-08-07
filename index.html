@@ -32,10 +32,10 @@
                 <div class="flex flex-col
                 lg:flex-row
                 ">
-                    <a class="p-3" href="#">Features</a>
-                    <a class="p-3" href="#">Solutions</a>
-                    <a class="p-3" href="#">Princing</a>
-                    <a class="p-3" href="#">About</a>
+                    <a class="p-3 transition duration-300 hover:scale-105 hover:[text-shadow:_0_0_10px_rgba(255,255,255,0.45)]" href="#">Features</a>
+                    <a class="p-3 transition duration-300 hover:scale-105 hover:[text-shadow:_0_0_10px_rgba(255,255,255,0.45)]" href="#">Solutions</a>
+                    <a class="p-3 transition duration-300 hover:scale-105 hover:[text-shadow:_0_0_10px_rgba(255,255,255,0.45)]" href="#">Princing</a>
+                    <a class="p-3 transition duration-300 hover:scale-105 hover:[text-shadow:_0_0_10px_rgba(255,255,255,0.45)]" href="#">About</a>
                 </div>
 
                 
@@ -46,15 +46,19 @@
                                 lg:block lg:static lg:flex-row lg:mb-0 lg:flex
                             ">
                 <a class="block
-                                    border-2 border-neutral-600 text-neutral-400 w-[18rem] px-4 py-2 rounded-full text-center m-1 text-sm
-                                    lg:w-fit
-                                " href="#">
+                    transition duration-300 hover:scale-105 hover:text-neutral-100
+                    border-2 border-neutral-600 text-neutral-400 w-[18rem] px-4 py-2 rounded-full text-center m-1 text-sm
+                    lg:w-fit
+                " href="#">
                     Watch Demo
                 </a>
                 <a class="block
-                                    bg-linear-to-br from-sky-300 to-indigo-300 text-neutral-950 w-[18rem] px-4 py-2 rounded-full text-center m-1 text-sm
-                                    lg:w-fit
-                                " href="#">Get Started</a>
+                    transition duration-300 hover:scale-105 hover:text-neutral-900 hover:from-neutral-200 hover:to-neutral-100
+                    bg-linear-to-br from-sky-300 to-indigo-300 text-neutral-950 w-[18rem] px-4 py-2 rounded-full text-center m-1 text-sm
+                    lg:w-fit
+                " href="#">
+                    Get Started
+                </a>
             </div>
 
             <button id="nav-abre-fecha-btn" class="
@@ -78,7 +82,9 @@
            bg-[url('/bg.png')] bg-cover bg-center bg-no-repeat h-[calc(100vh-2.35rem)] text-sky-100 flex items-center justify-center
         ">
             <div class="mx-5 text-center">
-                <p class="bg-fuchsia-800/20 border-fuchsia-800/30 text-sm text-purple-200 font-bold block w-fit px-5 py-1 rounded-full mb-7 mx-auto border-1">Novo modelo híbrido IA V3.0</p>
+                <p class=" transition animate-pulse
+                    bg-fuchsia-800/20 border-fuchsia-800/30 text-sm text-purple-200 font-bold block w-fit px-5 py-1 rounded-full mb-7 mx-auto border-1"
+                >Novo modelo híbrido IA V3.0</p>
                 <h1 class="text-4xl font-extrabold mb-4
                     lg:text-4xl
                     2xl:text-[3.5rem]
@@ -93,12 +99,16 @@
                 </p>
                 <div class="flex flex-col items-center">
                     <!-- Botao com icone -->
-                    <div class="flex justify-center py-2 rounded-full text-neutral-950 bg-gradient-to-r from-sky-200 via-purple-200 to-fuchsia-200 w-[13rem] mb-2">
+                    <div class=" transition duration-300 hover:scale-105 hover:text-neutral-900 hover:from-neutral-200 hover:to-neutral-100
+                        flex justify-center py-2 rounded-full text-neutral-950 bg-gradient-to-r from-sky-200 via-purple-200 to-fuchsia-200 w-[13rem] mb-2
+                    ">
                         <a class="mr-1 text-sm font-semibold" href="#">Começar Agora </a>
                         <img src="/imgs/icons/seta-diretira.png" alt="seta">
                     </div>
                     <!-- Botao sem icone -->
-                    <div class="py-2 border border-neutral-600 rounded-full text-neutral-950 w-[13rem] mb-2 bg-neutral-800/60">    
+                    <div class=" transition duration-300 hover:scale-105
+                        py-2 border border-neutral-600 rounded-full text-neutral-950 w-[13rem] mb-2 bg-neutral-800/60
+                    ">    
                         <a class="text-neutral-400 text-sm font-semibold" href="">Falar com especialista</a>
                     </div>
                 </div>
@@ -124,30 +134,40 @@
                 2xl:gap-15
             ">
 
-                <article  class="flex flex-col items-start justify-center p-8 bg-neutral-900/80 border border-neutral-600/50 rounded-xl my-12
+                <article  class=" transition duration-300 hover:scale-105
+                    flex flex-col items-start justify-center p-8 bg-neutral-900/80 border border-neutral-600/50 rounded-xl my-12
                     lg:h-[19rem]
                     2xl:w-[100%]
                 ">
-                    <img class="bg-cyan-200/30 rounded-sm p-2 w-[2.8rem] mb-5" src="/imgs/icons/brain-icon.png" alt="Cérebro icon">
+                    <img class="animate-bounce 
+                        bg-cyan-200/30 rounded-sm p-2 w-[2.8rem] mb-5" src="/imgs/icons/brain-icon.png" alt="Cérebro icon"
+                    >
                     <h3 class="font-bold text-lg pb-2 border-b-1 border-neutral-600/30 w-[100%]">Redes Neurais Adaptativas</h3> 
                     <p class="pt-2 text-neutral-200/80 tracking-wide">Nossos modelos ajustam-se dinamicamente ao comportamento dos seus dados, garantindo otimização contínua sem intervenção
                     manual.</p>
                 </article>
 
-                <article class="flex flex-col items-start justify-center p-8 bg-neutral-900/80 border border-neutral-600/50 rounded-xl my-12
+                <article class=" transition duration-300 hover:scale-105
+                    flex flex-col items-start justify-center p-8 bg-neutral-900/80 border border-neutral-600/50 rounded-xl my-12
                     lg:h-[19rem]
                     2xl:w-[100%]
                 ">
-                    <img class="bg-fuchsia-300/30 rounded-sm p-2 w-[2.8rem] mb-5" src="/imgs/icons/flux-icon.png" alt="Fluxo icon">
-                    <h3 class="font-bold text-lg pb-2 border-b-1 border-neutral-600/30 w-[100%]">Orquestração de API</h3>
+                    <img class=" animate-bounce
+                        bg-fuchsia-300/30 rounded-sm p-2 w-[2.8rem] mb-5" src="/imgs/icons/flux-icon.png" alt="Fluxo icon"
+                    >
+                    <h3 class="font-bold text-lg pb-2 border-b-1 border-neutral-600/30 w-[100%]"
+                    >Orquestração de API</h3>
                     <p class="pt-2 text-neutral-200/80 tracking-wide">Conecte milhares de endpoints instantaneamente. O AIVortex mapeia e integra sistemas complexos com topologia auto-organizável.</p>
                 </article>
 
-                <article class="flex flex-col items-start justify-center p-8 bg-neutral-900/80 border border-neutral-600/50 rounded-xl mt-12 mb-20
+                <article class=" transition duration-300 hover:scale-105
+                    flex flex-col items-start justify-center p-8 bg-neutral-900/80 border border-neutral-600/50 rounded-xl mt-12 mb-20
                     lg:h-[19rem]
                     2xl:w-[100%]
                 ">
-                    <img class="bg-cyan-200/30 rounded-sm p-2 w-[2.8rem] mb-5" src="/imgs/icons/shield-icon.png" alt="Escudo icon">
+                    <img class=" animate-bounce
+                        bg-cyan-200/30 rounded-sm p-2 w-[2.8rem] mb-5" src="/imgs/icons/shield-icon.png" alt="Escudo icon"
+                    >
                     <h3 class="font-bold text-lg pb-2 border-b-1 border-neutral-600/30 w-[100%]">Segurança Quântica</h3>
                     <p class="pt-2 text-neutral-200/80 tracking-wide">Criptografia de última geração em repouso e em trânsito. Seus dados de treinamento operam em enclaves isolados e auditáveis.</p>
                 </article>
@@ -312,28 +332,50 @@
             lg:grid-cols-3 lg:gap-40
         ">
             <nav>
-                <h3 class="uppercase font-semibold text-[0.8rem] pb-2 text-neutral-100">Produto</h3>
+                <h3 class=" transition duration-300 hover:scale-105 
+                    uppercase font-semibold text-[0.8rem] pb-2 text-neutral-100"
+                >Produto</h3>
                 <ul>
-                    <li class="mb-2"><a href="#">Features</a></li>
-                    <li class="mb-2"><a href="#">Solutions</a></li>
-                    <li class="mb-2"><a href="#">Pricing</a></li>
+                    <li class=" transition duration-300 hover:text-neutral-100 hover:italic
+                    mb-2
+                    "><a href="#">Features</a></li>
+                    <li class=" transition duration-300 hover:text-neutral-100 hover:italic
+                    mb-2
+                    "><a href="#">Solutions</a></li>
+                    <li class=" transition duration-300 hover:text-neutral-100 hover:italic
+                    mb-2
+                    "><a href="#">Pricing</a></li>
                 </ul>
             </nav>
 
             <nav>
-                <h3 class="uppercase font-semibold text-[0.8rem] pb-2 text-neutral-100">Empresa</h3>
+                <h3 class=" transition duration-300 hover:scale-105
+                    uppercase font-semibold text-[0.8rem] pb-2 text-neutral-100"
+                >Empresa</h3>
                 <ul>
-                    <li class="mb-2"><a href="#">About Us</a></li>
-                    <li class="mb-2"><a href="#">Careers</a></li>
-                    <li class="mb-2"><a href="#">Contact Us</a></li>
+                    <li class=" transition duration-300 hover:text-neutral-100 hover:italic
+                    mb-2
+                    "><a href="#">About Us</a></li>
+                    <li class=" transition duration-300 hover:text-neutral-100 hover:italic
+                    mb-2
+                    "><a href="#">Careers</a></li>
+                    <li class=" transition duration-300 hover:text-neutral-100 hover:italic
+                    mb-2
+                    "><a href="#">Contact Us</a></li>
                 </ul>
             </nav>
 
             <nav>
-                <h3 class="uppercase font-semibold text-[0.8rem] pb-2 text-neutral-100">Legal</h3>
+                <h3 class=" transition duration-300 hover:scale-105
+                uppercase font-semibold text-[0.8rem] pb-2 text-neutral-100"
+                >Legal</h3>
                 <ul>
-                    <li class="mb-2"><a href="#">Privacy Policy</a></li>
-                    <li class="mb-2"><a href="#">Terms of Service</a></li>
+                    <li class=" transition duration-300 hover:text-neutral-100 hover:italic
+                    mb-2
+                    "><a href="#">Privacy Policy</a></li>
+                    <li class=" transition duration-300 hover:text-neutral-100 hover:italic
+                    mb-2
+                    "><a href="#">Terms of Service</a></li>
                 </ul>
             </nav>
         </section>
