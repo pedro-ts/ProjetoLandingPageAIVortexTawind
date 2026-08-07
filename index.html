@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="shared.css">
+    <script src="./script.js"></script>
+
+    <title>Document</title>
+</head>
+<body class="bg-linear-to-br from-neutral-950 to-neutral-900 text-neutral-300">
+    <!-- NAV BAR -->
+    <header>
+        <nav id="nav-contaier" class=" nav-contaier
+            relative flex justify-between bg-linear-to-br from-neutral-950 to-neutral-900 p-2 border-b-2 border-neutral-600
+        ">
+            <div class=" nav-logo
+                text-sky-300 text-2xl
+                font-bold
+                p-1
+            ">
+                <a href="#"> AIVortex</a>
+            </div>
+            <div id="nav-links-container" class=" nav-links-container
+                    text-neutral-300
+                    hidden fixed text-neutral-300 bg-linear-to-bl from-neutral-950 to-neutral-900 top-[3.35rem] h-[calc(100vh-3.35rem)] w-[100vw] left-0 text-xl p-1 font-bold
+                    
+            ">
+                <a class="p-3" href="#">Features</a>
+                <a class="p-3" href="#">Solutions</a>
+                <a class="p-3" href="#">Princing</a>
+                <a class="p-3" href="#">About</a>
+
+                <div id="nav-buttons-container" class="nav-buttons-container
+                    hidden flex-col items-center fixed inset-x-0 bottom-0 mb-10
+                ">
+                    <a class="block
+                        border-2 border-neutral-600 text-neutral-400 w-[18rem] px-7 py-2 rounded-full text-center m-1 text-sm
+                    " href="#">
+                        Watch Demo
+                    </a>
+                    <a class="block
+                        bg-linear-to-br from-sky-300 to-indigo-300 text-neutral-950 w-[18rem] px-7 py-2 rounded-full text-center m-1 text-sm
+                    " href="#">Get Started</a>
+                </div>
+            </div>
+            
+
+            <button id="nav-abre-fecha-btn" class="
+                absolute top-4 right-3
+            ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 48 48">
+                    <path d="M0 0h48v48H0z" fill="none" />
+                    <path fill="#c6c6c6"
+                        d="M4 11.25c0-.69.56-1.25 1.25-1.25h37.5a1.25 1.25 0 1 1 0 2.5H5.25c-.69 0-1.25-.56-1.25-1.25m0 13c0-.69.56-1.25 1.25-1.25h37.5a1.25 1.25 0 1 1 0 2.5H5.25c-.69 0-1.25-.56-1.25-1.25M5.25 36a1.25 1.25 0 1 0 0 2.5h37.5a1.25 1.25 0 1 0 0-2.5z" />
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <!-- CONTEUDO PRINCIPAL -->
+    <main id="main-container">
+        <!-- -------------------------------------------------------------- -->
+        <!-- Principal -->
+        <section class="Principal
+           bg-[url('/bg.png')] bg-cover bg-center bg-no-repeat h-[calc(100vh-2.35rem)] text-sky-100 flex items-center justify-center
+        ">
+            <div class="mx-5 text-center">
+                <p class="bg-fuchsia-800/20 border-fuchsia-800/30 text-sm text-purple-200 font-bold block w-fit px-5 py-1 rounded-full mb-7 mx-auto border-1">Novo modelo híbrido de IA V3.0</p>
+                <h1 class="text-4xl font-extrabold mb-4">Revolucione sua <span class="bg-gradient-to-r from-sky-200 via-purple-200 to-fuchsia-200 bg-clip-text text-transparent">produtivdade</span></h1>
+                <p class="p-1 text-lg mb-7">AIVortex transforma processos complexos em fluxos de trabalho invisíveis. Potencialize sua equipe com inteligência artificial que aprende, adapta e executa com precisão matemática.</p>
+                <div class="flex flex-col items-center">
+                    <!-- Botao com icone -->
+                    <div class="flex justify-center py-2 rounded-full text-neutral-950 bg-gradient-to-r from-sky-200 via-purple-200 to-fuchsia-200 w-[13rem] mb-2">
+                        <a class="mr-1 text-sm font-semibold" href="#">Começar Agora </a>
+                        <img src="/imgs/icons/seta-diretira.png" alt="seta">
+                    </div>
+                    <!-- Botao sem icone -->
+                    <div class="py-2 border border-neutral-600 rounded-full text-neutral-950 w-[13rem] mb-2">    
+                        <a class="text-neutral-400 text-sm font-semibold" href="">Falar com especialista</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------------------------------------------------- -->
+        <!-- Arquitetura -->
+        <section class="Arquitetura min-h-[calc(100vh-2.35rem)] h-fit bg-linear-to-br from-neutral-950 to-neutral-900 mx-5">
+            <div class="titulo-container text-center mb-4">
+                <h2 class="text-2xl font-bold mb-2 text-neutral-200">Inteligência em cada camada</h2>
+                <p>Arquitetura desenvolvida para escala corporativa</p>
+            </div>
+
+            <div class="cards-container">
+
+                <article  class="flex flex-col items-start justify-center p-8 bg-neutral-900/80 border border-neutral-600/50 rounded-xl my-12">
+                    <img class="bg-cyan-200/30 rounded-sm p-2 w-[2.8rem] mb-5" src="/imgs/icons/brain-icon.png" alt="Cérebro icon">
+                    <h3 class="font-bold text-lg pb-2 border-b-1 border-neutral-600/30 w-[100%]">Redes Neurais Adaptativas</h3> 
+                    <p class="pt-2 text-neutral-200/80 tracking-wide">Nossos modelos ajustam-se dinamicamente ao comportamento dos seus dados, garantindo otimização contínua sem intervenção
+                    manual.</p>
+                </article>
+
+                <article class="flex flex-col items-start justify-center p-8 bg-neutral-900/80 border border-neutral-600/50 rounded-xl my-12">
+                    <img class="bg-fuchsia-300/30 rounded-sm p-2 w-[2.8rem] mb-5" src="/imgs/icons/flux-icon.png" alt="Fluxo icon">
+                    <h3 class="font-bold text-lg pb-2 border-b-1 border-neutral-600/30 w-[100%]">Orquestração de API</h3>
+                    <p class="pt-2 text-neutral-200/80 tracking-wide">Conecte milhares de endpoints instantaneamente. O AIVortex mapeia e integra sistemas complexos com topologia auto-organizável.</p>
+                </article>
+
+                <article class="flex flex-col items-start justify-center p-8 bg-neutral-900/80 border border-neutral-600/50 rounded-xl mt-12 mb-20">
+                    <img class="bg-cyan-200/30 rounded-sm p-2 w-[2.8rem] mb-5" src="/imgs/icons/shield-icon.png" alt="Escudo icon">
+                    <h3 class="font-bold text-lg pb-2 border-b-1 border-neutral-600/30 w-[100%]">Segurança Quântica</h3>
+                    <p class="pt-2 text-neutral-200/80 tracking-wide">Criptografia de última geração em repouso e em trânsito. Seus dados de treinamento operam em enclaves isolados e auditáveis.</p>
+                </article>
+            </div>
+        </section>
+        <!-- -------------------------------------------------------------- -->
+        <!-- Numeros -->
+        <section class="Numeros mx-5">
+
+            <div class="cards-numeros-container grid grid-cols-2 gap-5 justify-items-center my-20">
+                <article class="flex flex-col items-center text-center justify-center bg-neutral-900/80 border border-neutral-600/50 rounded-xl w-[9.2rem] h-[7rem]">
+                    <h3 class="text-[2.8rem] font-black text-cyan-200">99.9%</h3>
+                    <p class="text-xs font-bold uppercase">Uptime</p>
+                </article>
+
+                <article class="flex flex-col items-center text-center justify-center bg-neutral-900/80 border border-neutral-600/50 rounded-xl w-[9.2rem] h-[7rem]">
+                    <h3 class="text-[2.8rem] font-black text-pink-300">10x</h3>
+                    <p class="text-xs font-bold uppercase">Mais Rápido</p>
+                </article>
+
+                <article class="flex flex-col items-center text-center justify-center bg-neutral-900/80 border border-neutral-600/50 rounded-xl w-[9.2rem] h-[7rem]">
+                    <h3 class="text-[2.8rem] font-black text-pink-300">24/7</h3>
+                    <p class="text-xs font-bold uppercase">Suporte Especializado</p>
+                </article>
+
+                <article class="flex flex-col items-center text-center justify-center bg-neutral-900/80 border border-neutral-600/50 rounded-xl w-[9.2rem] h-[7rem]">
+                    <h3 class="text-[2.8rem] font-black text-cyan-200">0ms</h3>
+                    <p class="text-xs font-bold uppercase">Latência</p>
+                </article>
+            </div>
+        </section>
+        <!-- -------------------------------------------------------------- -->
+        <!-- Perguntas freguentes -->
+        <section class="Perguntas-Freguentes min-h-[calc(100vh-2.35rem)] mx-5">
+            <div class="titulo">
+                <h2 class="text-2xl font-bold mb-2 text-neutral-200 text-center">Perguntas Frequentes</h2>
+            </div>
+
+            <div>
+                <details class="mb-4">
+                    <summary class="font-semibold text-lg mt-4 list-none">Como funciona a integração?</summary>
+                    <p class="p-2 pb-3 text-neutral-200/80 border-b-2 border-neutral-600/40 tracking-wide">Nossa API é agnóstica e se conecta a qualquer sistema legado em minutos através de mapeamento inteligente.</p>
+                </details>
+
+                <details>
+                    <summary>Meus dados estão seguros?</summary>
+                    <p>Sim, utilizamos criptografia de nível militar e enclaves isolados para garantir que seus dados nunca sejam expostos.</p>
+                </details>
+
+                <details>
+                    <summary>Qual o tempo médio de implementação?</summary>
+                    <p>A maioria das empresas atinge o ROI positivo em menos de 30 dias após o início da configuração.</p>
+                </details>
+            </div>
+        </section>
+        <!-- -------------------------------------------------------------- -->
+        <!-- Comentarios -->
+        <section class="Comentarios">
+            <article class="card-comentario">
+                <blockquote>
+                    "A eficiência da nossa equipe aumentou drasticamente após a implementação do AIVortex. A automação é realmente
+                    invisível."
+                </blockquote>
+                <footer>
+                    <img src="https://unsplash.com" alt="João D.">
+                    <cite>
+                        <strong>João D.</strong>
+                        <span>CTO, TechFlow</span>
+                    </cite>
+                </footer>
+            </article>
+
+            <article class="card-comentario">
+                <blockquote>
+                    "A segurança quântica nos deu a tranquilidade necessária para migrar nossos dados mais sensíveis para a nuvem."
+                </blockquote>
+                <footer>
+                    <img src="https://unsplash.com" alt="Maria S.">
+                    <cite>
+                        <strong>Maria S.</strong>
+                        <span>Head de Segurança, Nexus</span>
+                    </cite>
+                </footer>
+            </article>
+
+            <article class="card-comentario">
+                <blockquote>
+                    "O suporte 24/7 e a facilidade de integração via API tornaram o AIVortex a escolha óbvia para nossa escala."
+                </blockquote>
+                <footer>
+                    <img src="https://unsplash.com" alt="Ricardo C.">
+                    <cite>
+                        <strong>Ricardo C.</strong>
+                        <span>Diretor de Ops, GlobalLog</span>
+                    </cite>
+                </footer>
+            </article>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="footer-container">
+        <!-- Direitos -->
+        <section class="footer-direitos">
+            <div class="logo">
+                <h2>AIVortex</h2>
+            </div>
+            <p>Redefinindo os limites da automação corporativa com inteligência artificial avançada.</p>
+            <p>© 2024 AIVortex Automation. All rights reserved.</p>
+        </section>
+        <!-- -------------------------------------------------------------- -->
+        <!-- Links -->
+        <section class="footer-links">
+            <nav>
+                <h3>Produto</h3>
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Solutions</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+            </nav>
+
+            <nav>
+                <h3>Empresa</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <nav>
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </nav>
+        </section>
+    </footer>
+</body>
+</html>
