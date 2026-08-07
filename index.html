@@ -240,50 +240,55 @@
         </section>
         <!-- -------------------------------------------------------------- -->
         <!-- Comentarios -->
-        <section class="Comentarios mx-5 mb-20">
+        <section class="Comentarios mx-5 mb-20
+        2xl:mx-[18%]
+        ">
             <div class="titulo">
                 <h2 class="text-2xl font-bold mb-8 text-neutral-200 text-center">O que dizem nossos parceiros</h2>
             </div>
 
-            <article class="card-comentario flex flex-col items-start justify-center p-6 bg-neutral-900/80 border border-neutral-600/50 rounded-xl my-12">
-                <blockquote class="italic tracking-wide">
-                    "A eficiência da nossa equipe aumentou drasticamente após a implementação do AIVortex. A automação é realmente
-                    invisível."
-                </blockquote>
-                <footer class="flex items-center mt-4">
-                    <img  class="w-[2.5rem] h-[2.5rem] p-2 bg-cyan-500/50 rounded-full mr-4" src="/imgs/icons/person-icon.png" alt="João D.">
-                    <cite class="flex flex-col">
-                        <strong>João D.</strong>
-                        <span class="uppercase text-[0.7rem] font-semibold text-neutral-200/85">CTO, TechFlow</span>
-                    </cite>
-                </footer>
-            </article>
-
-            <article class="card-comentario flex flex-col items-start justify-center p-6 bg-neutral-900/80 border border-neutral-600/50 rounded-xl my-12">
-                <blockquote class="italic tracking-wide">
-                    "A segurança quântica nos deu a tranquilidade necessária para migrar nossos dados mais sensíveis para a nuvem."
-                </blockquote>
-                <footer class="flex items-center mt-4">
-                    <img class="w-[2.5rem] h-[2.5rem] p-2 bg-fuchsia-500/50 rounded-full mr-4" src="/imgs/icons/person-icon.png" alt="Maria S.">
-                    <cite class="flex flex-col">
-                        <strong>Maria S.</strong>
-                        <span class="uppercase text-[0.7rem] font-semibold text-neutral-200/85">Head de Segurança, Nexus</span>
-                    </cite>
-                </footer>
-            </article>
-
-            <article class="card-comentario flex flex-col items-start justify-center p-6 bg-neutral-900/80 border border-neutral-600/50 rounded-xl my-12">
-                <blockquote class="italic tracking-wide">
-                    "O suporte 24/7 e a facilidade de integração via API tornaram o AIVortex a escolha óbvia para nossa escala."
-                </blockquote>
-                <footer class="flex items-center mt-4">
-                    <img class="w-[2.5rem] h-[2.5rem] p-2 bg-yellow-500/50 rounded-full mr-4" src="/imgs/icons/person-icon.png" alt="Ricardo C.">
-                    <cite class="flex flex-col">
-                        <strong>Ricardo C.</strong>
-                        <span class="uppercase text-[0.7rem] font-semibold text-neutral-200/85">Diretor de Ops, GlobalLog</span>
-                    </cite>
-                </footer>
-            </article>
+            <div class=" cards-perguntas-container
+                lg:grid lg:grid-cols-3 lg:gap-5
+                2xl:gap-15
+            ">
+                <article class="card-comentario flex flex-col items-start justify-center p-6 bg-neutral-900/80 border border-neutral-600/50 rounded-xl my-6">
+                    <blockquote class="italic tracking-wide">
+                        "A eficiência da nossa equipe aumentou drasticamente após a implementação do AIVortex. A automação é realmente
+                        invisível."
+                    </blockquote>
+                    <footer class="flex items-center mt-4">
+                        <img  class="w-[2.5rem] h-[2.5rem] p-2 bg-cyan-500/50 rounded-full mr-4" src="/imgs/icons/person-icon.png" alt="João D.">
+                        <cite class="flex flex-col">
+                            <strong>João D.</strong>
+                            <span class="uppercase text-[0.7rem] font-semibold text-neutral-200/85">CTO, TechFlow</span>
+                        </cite>
+                    </footer>
+                </article>
+                <article class="card-comentario flex flex-col items-start justify-center p-6 bg-neutral-900/80 border border-neutral-600/50 rounded-xl my-6">
+                    <blockquote class="italic tracking-wide">
+                        "A segurança quântica nos deu a tranquilidade necessária para migrar nossos dados mais sensíveis para a nuvem."
+                    </blockquote>
+                    <footer class="flex items-center mt-4">
+                        <img class="w-[2.5rem] h-[2.5rem] p-2 bg-fuchsia-500/50 rounded-full mr-4" src="/imgs/icons/person-icon.png" alt="Maria S.">
+                        <cite class="flex flex-col">
+                            <strong>Maria S.</strong>
+                            <span class="uppercase text-[0.7rem] font-semibold text-neutral-200/85">Head de Segurança, Nexus</span>
+                        </cite>
+                    </footer>
+                </article>
+                <article class="card-comentario flex flex-col items-start justify-center p-6 bg-neutral-900/80 border border-neutral-600/50 rounded-xl my-6">
+                    <blockquote class="italic tracking-wide">
+                        "O suporte 24/7 e a facilidade de integração via API tornaram o AIVortex a escolha óbvia para nossa escala."
+                    </blockquote>
+                    <footer class="flex items-center mt-4">
+                        <img class="w-[2.5rem] h-[2.5rem] p-2 bg-yellow-500/50 rounded-full mr-4" src="/imgs/icons/person-icon.png" alt="Ricardo C.">
+                        <cite class="flex flex-col">
+                            <strong>Ricardo C.</strong>
+                            <span class="uppercase text-[0.7rem] font-semibold text-neutral-200/85">Diretor de Ops, GlobalLog</span>
+                        </cite>
+                    </footer>
+                </article>
+            </div>
         </section>
     </main>
 
