@@ -13,7 +13,7 @@
     <!-- NAV BAR -->
     <header>
         <nav id="nav-contaier" class=" nav-contaier relative flex justify-between bg-linear-to-br from-neutral-950 to-neutral-900 p-2 border-b-2 border-neutral-600
-        md:justify-between
+        lg:justify-between
         ">
             <div class=" nav-logo
                 text-sky-300 text-2xl
@@ -27,10 +27,10 @@
                     text-neutral-300
                     hidden fixed text-neutral-300 bg-linear-to-bl from-neutral-950 to-neutral-900 top-[3.35rem] h-[calc(100vh-3.35rem)] w-[100vw] left-0 text-xl p-1 font-bold
 
-                    md:block md:h-fit md:w-fit md:static md:bg-transparent md:from-transparent md:to-transparent md:flex md:font-semibold md:text-[1rem] md:justify-between">
+                    lg:block lg:h-fit lg:w-fit lg:static lg:bg-transparent lg:from-transparent lg:to-transparent lg:flex lg:font-semibold lg:text-[1rem] lg:justify-between">
 
                 <div class="flex flex-col
-                md:flex-row
+                lg:flex-row
                 ">
                     <a class="p-3" href="#">Features</a>
                     <a class="p-3" href="#">Solutions</a>
@@ -43,23 +43,23 @@
 
             <div id="nav-buttons-container" class="nav-buttons-container
                                 hidden flex-col items-center fixed inset-x-0 bottom-0 mb-10
-                                md:block md:static md:flex-row md:mb-0 md:flex
+                                lg:block lg:static lg:flex-row lg:mb-0 lg:flex
                             ">
                 <a class="block
                                     border-2 border-neutral-600 text-neutral-400 w-[18rem] px-4 py-2 rounded-full text-center m-1 text-sm
-                                    md:w-fit
+                                    lg:w-fit
                                 " href="#">
                     Watch Demo
                 </a>
                 <a class="block
                                     bg-linear-to-br from-sky-300 to-indigo-300 text-neutral-950 w-[18rem] px-4 py-2 rounded-full text-center m-1 text-sm
-                                    md:w-fit
+                                    lg:w-fit
                                 " href="#">Get Started</a>
             </div>
 
             <button id="nav-abre-fecha-btn" class="
                 absolute top-4 right-3
-                md:hidden
+                lg:hidden
             ">
                 <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 48 48">
                     <path d="M0 0h48v48H0z" fill="none" />
@@ -78,9 +78,19 @@
            bg-[url('/bg.png')] bg-cover bg-center bg-no-repeat h-[calc(100vh-2.35rem)] text-sky-100 flex items-center justify-center
         ">
             <div class="mx-5 text-center">
-                <p class="bg-fuchsia-800/20 border-fuchsia-800/30 text-sm text-purple-200 font-bold block w-fit px-5 py-1 rounded-full mb-7 mx-auto border-1">Novo modelo híbrido de IA V3.0</p>
-                <h1 class="text-4xl font-extrabold mb-4">Revolucione sua <span class="bg-gradient-to-r from-sky-200 via-purple-200 to-fuchsia-200 bg-clip-text text-transparent">produtividade</span></h1>
-                <p class="p-1 text-lg mb-7">AIVortex transforma processos complexos em fluxos de trabalho invisíveis. Potencialize sua equipe com inteligência artificial que aprende, adapta e executa com precisão matemática.</p>
+                <p class="bg-fuchsia-800/20 border-fuchsia-800/30 text-sm text-purple-200 font-bold block w-fit px-5 py-1 rounded-full mb-7 mx-auto border-1">Novo modelo híbrido IA V3.0</p>
+                <h1 class="text-4xl font-extrabold mb-4
+                    lg:text-4xl
+                    xl:text-[3.5rem]
+                ">
+                    Revolucione sua <span class="bg-gradient-to-r from-sky-200 via-purple-200 to-fuchsia-200 bg-clip-text text-transparent">produtividade</span>
+                </h1>
+                <p class="p-1 text-lg mb-7
+                    lg:w-fit lg:max-w-[30rem] lg:mx-40
+                    xl:text-center lg:max-w-[55rem]
+                ">
+                    AIVortex transforma processos complexos em fluxos de trabalho invisíveis. Potencialize sua equipe com inteligência artificial que aprende, adapta e executa com precisão matemática.
+                </p>
                 <div class="flex flex-col items-center">
                     <!-- Botao com icone -->
                     <div class="flex justify-center py-2 rounded-full text-neutral-950 bg-gradient-to-r from-sky-200 via-purple-200 to-fuchsia-200 w-[13rem] mb-2">
@@ -88,7 +98,7 @@
                         <img src="/imgs/icons/seta-diretira.png" alt="seta">
                     </div>
                     <!-- Botao sem icone -->
-                    <div class="py-2 border border-neutral-600 rounded-full text-neutral-950 w-[13rem] mb-2">    
+                    <div class="py-2 border border-neutral-600 rounded-full text-neutral-950 w-[13rem] mb-2 bg-neutral-800/60">    
                         <a class="text-neutral-400 text-sm font-semibold" href="">Falar com especialista</a>
                     </div>
                 </div>
