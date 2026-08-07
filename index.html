@@ -81,13 +81,13 @@
                 <p class="bg-fuchsia-800/20 border-fuchsia-800/30 text-sm text-purple-200 font-bold block w-fit px-5 py-1 rounded-full mb-7 mx-auto border-1">Novo modelo híbrido IA V3.0</p>
                 <h1 class="text-4xl font-extrabold mb-4
                     lg:text-4xl
-                    xl:text-[3.5rem]
+                    2xl:text-[3.5rem]
                 ">
                     Revolucione sua <span class="bg-gradient-to-r from-sky-200 via-purple-200 to-fuchsia-200 bg-clip-text text-transparent">produtividade</span>
                 </h1>
                 <p class="p-1 text-lg mb-7
                     lg:w-fit lg:max-w-[30rem] lg:mx-40
-                    xl:text-center lg:max-w-[55rem]
+                    2xl:text-center lg:max-w-[55rem]
                 ">
                     AIVortex transforma processos complexos em fluxos de trabalho invisíveis. Potencialize sua equipe com inteligência artificial que aprende, adapta e executa com precisão matemática.
                 </p>
@@ -106,28 +106,47 @@
         </section>
         <!-- -------------------------------------------------------------- -->
         <!-- Arquitetura -->
-        <section class="Arquitetura min-h-[calc(100vh-2.35rem)] h-fit bg-linear-to-br from-neutral-950 to-neutral-900 mx-5">
+        <section class="Arquitetura min-h-[calc(100vh-2.35rem)] h-fit bg-linear-to-br from-neutral-950 to-neutral-900 mx-5
+        lg:from-transparent lg:to-transparent
+        2xl:mx-40 2xl:min-h-[calc(70vh)] 2xl:mx-[18%]
+        ">
             <div class="titulo-container text-center mb-4">
-                <h2 class="text-2xl font-bold mb-2 text-neutral-200">Inteligência em cada camada</h2>
+                <h2 class="text-2xl font-bold mb-2 text-neutral-200
+                lg:pt-[5rem]
+                ">
+                    Inteligência em cada camada
+                </h2>
                 <p>Arquitetura desenvolvida para escala corporativa</p>
             </div>
 
-            <div class="cards-container">
+            <div class="cards-container
+                lg:grid lg:grid-cols-3 lg:gap-5 
+                2xl:gap-15
+            ">
 
-                <article  class="flex flex-col items-start justify-center p-8 bg-neutral-900/80 border border-neutral-600/50 rounded-xl my-12">
+                <article  class="flex flex-col items-start justify-center p-8 bg-neutral-900/80 border border-neutral-600/50 rounded-xl my-12
+                    lg:h-[19rem]
+                    2xl:w-[100%]
+                ">
                     <img class="bg-cyan-200/30 rounded-sm p-2 w-[2.8rem] mb-5" src="/imgs/icons/brain-icon.png" alt="Cérebro icon">
                     <h3 class="font-bold text-lg pb-2 border-b-1 border-neutral-600/30 w-[100%]">Redes Neurais Adaptativas</h3> 
                     <p class="pt-2 text-neutral-200/80 tracking-wide">Nossos modelos ajustam-se dinamicamente ao comportamento dos seus dados, garantindo otimização contínua sem intervenção
                     manual.</p>
                 </article>
 
-                <article class="flex flex-col items-start justify-center p-8 bg-neutral-900/80 border border-neutral-600/50 rounded-xl my-12">
+                <article class="flex flex-col items-start justify-center p-8 bg-neutral-900/80 border border-neutral-600/50 rounded-xl my-12
+                    lg:h-[19rem]
+                    2xl:w-[100%]
+                ">
                     <img class="bg-fuchsia-300/30 rounded-sm p-2 w-[2.8rem] mb-5" src="/imgs/icons/flux-icon.png" alt="Fluxo icon">
                     <h3 class="font-bold text-lg pb-2 border-b-1 border-neutral-600/30 w-[100%]">Orquestração de API</h3>
                     <p class="pt-2 text-neutral-200/80 tracking-wide">Conecte milhares de endpoints instantaneamente. O AIVortex mapeia e integra sistemas complexos com topologia auto-organizável.</p>
                 </article>
 
-                <article class="flex flex-col items-start justify-center p-8 bg-neutral-900/80 border border-neutral-600/50 rounded-xl mt-12 mb-20">
+                <article class="flex flex-col items-start justify-center p-8 bg-neutral-900/80 border border-neutral-600/50 rounded-xl mt-12 mb-20
+                    lg:h-[19rem]
+                    2xl:w-[100%]
+                ">
                     <img class="bg-cyan-200/30 rounded-sm p-2 w-[2.8rem] mb-5" src="/imgs/icons/shield-icon.png" alt="Escudo icon">
                     <h3 class="font-bold text-lg pb-2 border-b-1 border-neutral-600/30 w-[100%]">Segurança Quântica</h3>
                     <p class="pt-2 text-neutral-200/80 tracking-wide">Criptografia de última geração em repouso e em trânsito. Seus dados de treinamento operam em enclaves isolados e auditáveis.</p>
