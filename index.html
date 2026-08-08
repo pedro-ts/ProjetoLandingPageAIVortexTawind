@@ -32,9 +32,9 @@
 
             <div id="nav-links-container" class=" nav-links-container
                     text-neutral-300
-                    hidden fixed text-neutral-300 bg-linear-to-bl from-neutral-950 to-neutral-900 top-[3.35rem] h-[calc(100vh-3.35rem)] w-[100vw] left-0 text-xl p-1 font-bold
+                    hidden fixed text-neutral-300 bg-linear-to-bl from-neutral-950 to-neutral-900 top-[3.35rem] h-[calc(100vh-3.35rem)] w-[100vw] left-0 text-xl p-1 font-bold flex-col justify-between pb-6
 
-                    lg:block lg:h-fit lg:w-fit lg:static lg:bg-transparent lg:from-transparent lg:to-transparent lg:flex lg:font-semibold lg:text-[1rem] lg:justify-between">
+                    lg:block lg:h-fit lg:w-fit lg:static lg:bg-transparent lg:from-transparent lg:to-transparent lg:flex lg:font-semibold lg:text-[1rem] lg:justify-between lg:items-center lg:pb-0 lg:gap-8">
 
                 <div class="flex flex-col
                 lg:flex-row
@@ -45,27 +45,25 @@
                     <a class="p-3 transition duration-300 hover:scale-105 hover:[text-shadow:_0_0_10px_rgba(255,255,255,0.45)]" href="#">About</a>
                 </div>
 
-                
-            </div>
-
-            <div id="nav-buttons-container" class="nav-buttons-container
-                                hidden flex-col items-center fixed inset-x-0 bottom-0 mb-10
-                                lg:block lg:static lg:flex-row lg:mb-0 lg:flex
-                            ">
-                <a class="block
-                    transition duration-300 hover:scale-105 hover:text-neutral-100
-                    border-2 border-neutral-600 text-neutral-400 w-[18rem] px-4 py-2 rounded-full text-center m-1 text-sm
-                    lg:w-fit
-                " href="#">
-                    Watch Demo
-                </a>
-                <a class="block
-                    transition duration-300 hover:scale-105 hover:text-neutral-900 hover:from-neutral-200 hover:to-neutral-100
-                    bg-linear-to-br from-sky-300 to-indigo-300 text-neutral-950 w-[18rem] px-4 py-2 rounded-full text-center m-1 text-sm
-                    lg:w-fit
-                " href="#">
-                    Get Started
-                </a>
+                <div id="nav-buttons-container" class="nav-buttons-container
+                                    hidden flex-col items-center
+                                    lg:block lg:static lg:flex-row lg:flex
+                                ">
+                    <a class="block
+                        transition duration-300 hover:scale-105 hover:text-neutral-100
+                        border-2 border-neutral-600 text-neutral-400 w-[18rem] px-4 py-2 rounded-full text-center m-1 text-sm
+                        lg:w-fit
+                    " href="#">
+                        Watch Demo
+                    </a>
+                    <a class="block
+                        transition duration-300 hover:scale-105 hover:text-neutral-900 hover:from-neutral-200 hover:to-neutral-100
+                        bg-linear-to-br from-sky-300 to-indigo-300 text-neutral-950 w-[18rem] px-4 py-2 rounded-full text-center m-1 text-sm
+                        lg:w-fit
+                    " href="#">
+                        Get Started
+                    </a>
+                </div>
             </div>
 
             <button id="nav-abre-fecha-btn" class="
